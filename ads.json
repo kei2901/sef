@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "api/catpicture.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/catpicture",
+      "dest": "api/catpicture.py"
+    }
+  ]
+}
