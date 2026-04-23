@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/api/catpicture", "destination": "/api/catpicture.py" }
+  ],
+  "functions": {
+    "api/*.py": {
+      "runtime": "vercel-python@0.0.1"
+    }
+  }
+}
